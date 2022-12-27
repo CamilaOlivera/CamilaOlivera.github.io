@@ -1,168 +1,135 @@
-/* ********** Custom Properties ********** */
-:root {
-    --first-color: rgb(217, 0, 98);
-    --first-alpha-color: rgba(217, 0, 98, 0.75);
-    --second-color: rgba(248, 170, 102, 0.632);
-    --second-alpha-color:  rgba(248, 102, 170, 0.632);
-    --third-color: rgba(248, 170, 102, 0.632);
-    --third-alpha-color: rgba(80, 20, 100, 0.75);
-  
-    --link-color: rgba(202, 85, 85, 0.511);
-    --link-alpha-color: rgba(227, 80, 80, 0.75);
-  
-    --bg-color: rgb(245, 245, 245);
-    --bg-alpha-color: rgba(245, 245, 245, 0.75);
-  }
-  
-  /* ********** Reset Styles ********** */
-  .body {
-    font-family: "Raleway", sans-serif;
-    background-image: url("data:image/jpeg;base64,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");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("data:image/jpeg;base64,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");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  a {
-    color: var(--link-color);
-    transition: all 0.3s ease-out;
-  }
-  
-  a:hover {
-    color: var(--first-color);
-  }
-  
-  /* ********** Bootstrap Styles ********** */
-  
-  .bg-dark {
-    background-color: var(--second-color) !important;
-  }
+a {
+  color: rgba(202, 85, 85, 0.511);
+  transition: all 0.3s ease-out;
+}
 
-  .carousel-caption {
-    z-index: 1;
-  }
-  
-  .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d90062'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-  }
-  
-  .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d90062'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  }
-  
-  .dropdown-item {
-    color: var(--first-alpha-color);
-    font-weight: bold;
-    transition: all 0.3s ease-out;
-  }
-  
-  .dropdown-item:hover {
-    color: var(--third-alpha-color);
-  }
-  
-  .navbar-brand img {
-    width: auto;
-    height: 3rem;
-  }
-  
-  .navbar-dark .navbar-toggler {
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    transition: all 0.3s ease-out;
-  }
-  
-  .navbar-dark .navbar-toggler:hover {
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    opacity: 0.75;
-  }
-  
-  .nav-item {
-    transition: all 0.3s ease-out;
-  }
-  
+a:hover {
+  color: rgb(217, 0, 98);
+}
+
+.bg-dark {
+  background-color: rgba(248, 170, 102, 0.632) !important;
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d90062'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23d90062'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.dropdown-item {
+  color: rgba(217, 0, 98, 0.75);
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.dropdown-item:hover {
+  color: rgba(80, 20, 100, 0.75);
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 3rem;
+}
+
+.navbar-dark .navbar-toggler {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  transition: all 0.3s ease-out;
+}
+
+.navbar-dark .navbar-toggler:hover {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28217, 0, 98, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  opacity: 0.75;
+}
+
+.nav-item {
+  transition: all 0.3s ease-out;
+}
+
+.nav-item:hover {
+  background-color: rgba(217, 0, 98, 0.75);
+}
+
+.nav-link {
+  margin-left: 0.5rem;
+  color: rgb(217, 0, 98);
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: bs-white;
+}
+
+/* ********** My Styles ********** */
+.bg-color {
+  background-color: rgb(245, 245, 245);
+}
+
+.bg-alpha-color {
+  background-color: rgba(245, 245, 245, 0.75);
+}
+
+.bg-second-alpha-color {
+  background-color: rgba(248, 102, 170, 0.632);
+}
+
+/*.bg-gradient-blue-green {
+  background-color:rgb(245, 245, 245);
+  background-image: linear-gradient(
+    135deg,
+    rgba(248, 170, 102, 0.632)
+    rgba(248, 170, 102, 0.632) 79%
+  );
+  background-image: linear-gradient(
+    131deg,
+    rgba(248, 170, 102, 0.632)
+    rgba(248, 170, 102, 0.632)) }
+
+*/
+.bg-hero-image {
+  background-image: url("data:image/jpeg;base64,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");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-third-color {
+  background-color: rgba(248, 170, 102, 0.632);
+}
+
+.text-first-color {
+  color: rgb(217, 0, 98);
+}
+
+.text-third {
+  color: rgba(248, 170, 102, 0.632);
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+/* // Medium devices (tablets, 768px and up) */
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   .nav-item:hover {
-    background-color: var(--first-alpha-color);
+    background-color: transparent;
   }
-  
-  .nav-link {
-    margin-left: 0.5rem;
-    color: var(--first-color);
-    font-size: 1.15rem;
-    font-weight: bold;
-  }
-  
-  .nav-link:hover {
-    color: var(--bs-white);
-  }
-  
-  /* ********** My Styles ********** */
-  .bg-color {
-    background-color: var(--bg-color);
-  }
-  
-  .bg-alpha-color {
-    background-color: var(--bg-alpha-color);
-  }
-  
-  .bg-second-alpha-color {
-    background-color: var(--second-alpha-color);
-  }
-  
-  /*.bg-gradient-blue-green {
-    background-color:rgb(245, 245, 245);
-    background-image: linear-gradient(
-      135deg,
-      rgba(248, 170, 102, 0.632)
-      rgba(248, 170, 102, 0.632) 79%
-    );
-    background-image: linear-gradient(
-      131deg,
-      rgba(248, 170, 102, 0.632)
-      rgba(248, 170, 102, 0.632)) }
-    
-  */
-  
-  .bg-hero-image {
-    background-image: var(--bg-image);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .bg-third-color {
-    background-color: var(--third-color);
-  }
-  
-  .text-first-color {
-    color: var(--first-color);
-  }
-  
-  .text-third {
-    color: var(--third-color);
-  }
- 
-  
-  /* // X-Small devices (portrait phones, less than 576px)
-      // No media query for `xs` since this is the default in Bootstrap */
-  /* // Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
-  }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-  }
-  
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    .nav-item:hover {
-      background-color: transparent;
-    }
-  }
-  
-  /* // X-Large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-  }
-  
-  /* // XX-Large devices (larger desktops, 1400px and up) */
-  @media (min-width: 1400px) {
-  }
-  
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+/*# sourceMappingURL=style.css.map */
