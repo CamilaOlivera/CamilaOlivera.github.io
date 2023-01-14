@@ -1,8 +1,8 @@
 
 $first-color: rgb(217, 0, 98);
 $first-alpha-color: rgba(217, 0, 98, 0.75);
-$second-color: rgba(248, 170, 102, 0.632);
-$second-alpha-color:  rgba(248, 102, 170, 0.632);
+$second-color: rgba(248, 170, 102, 0.37);
+$second-alpha-color:  rgba(248, 102, 170, 0.347);
 $third-color: rgba(248, 170, 102, 0.632);
 $third-alpha-color: rgba(80, 20, 100, 0.75);
   
@@ -33,7 +33,7 @@ a:hover {
 
 
 .bg-dark {
-  background-color: $second-color !important;
+  background-color: $second-color ;
 }
 
 .carousel-caption {
